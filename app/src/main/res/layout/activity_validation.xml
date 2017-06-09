@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/id"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/id" />
+        <EditText
+            android:id="@+id/id_field"
+            android:hint="@string/id_hint"
+            style="@style/FormFieldStyle"/>
+        <TextView
+            style="@style/FormDescriptionStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/phone" />
+        <EditText
+            android:id="@+id/phone_field"
+            android:hint="@string/phone_hint"
+            style="@style/FormFieldStyle"/>
+        <TextView
+            style="@style/FormDescriptionStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/license"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/license" />
+        <EditText
+            android:id="@+id/license_field"
+            android:hint="@string/license_hint"
+            style="@style/FormFieldStyle" />
+        <TextView
+            style="@style/FormDescriptionStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/letter"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/letter" />
+        <EditText
+            android:id="@+id/letter_field"
+            style="@style/FormFieldStyle"/>
+        <TextView
+            style="@style/FormDescriptionStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uppercase"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/uppercase" />
+        <EditText
+            android:id="@+id/uppercase_field"
+            style="@style/FormFieldStyle" />
+        <TextView
+            style="@style/FormDescriptionStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lowercase"
+        style="@style/FormLayoutLinear" >
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/lowercase" />
+        <EditText
+            android:id="@+id/lowercase_field"
+            style="@style/FormFieldStyle" />
+        <TextView
+            style="@style/FormDescriptionStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/length"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/length" />
+        <EditText
+            android:id="@+id/length_field"
+            android:hint="@string/length_5"
+            style="@style/FormFieldStyle"/>
+        <TextView
+            style="@style/FormDescriptionStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/num2i2d"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/number" />
+        <EditText
+            android:id="@+id/num2i2d_field"
+            android:hint="@string/num2i2d"
+            style="@style/FormFieldStyle"/>
+        <TextView
+            style="@style/FormDescriptionStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/num4i2d"
+        style="@style/FormLayoutLinear">
+
+        <TextView
+            style="@style/FormLabelStyle"
+            android:text="@string/number" />
+        <EditText
+            android:id="@+id/num4i2d_field"
+            android:hint="@string/num4i2d"
+            style="@style/FormFieldStyle"/>
+        <TextView
+            style="@style/FormDescriptionStyle"
+            />
+
+    </LinearLayout>
+</LinearLayout>

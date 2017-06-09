@@ -8,7 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.opensource.limxtop.form.R;
+import com.opensource.limxtop.R;
 
 /**
  * Created by limxtop on 7/18/16.

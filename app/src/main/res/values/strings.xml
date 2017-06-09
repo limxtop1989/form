@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Form</string>
+    <string name="validate_activity_label">Validate</string>
+    <string name="id">ID :</string>
+    <string name="phone">phone :</string>
+    <string name="license">license :</string>
+    <string name="letter">letter :</string>
+    <string name="uppercase">uppercase :</string>
+    <string name="lowercase">lowercase :</string>
+    <string name="length">length :</string>
+    <string name="length_5">5 letters at most :</string>
+    <string name="number">number :</string>
+    <string name="num2i2d">00.00</string>
+    <string name="num4i2d">0000.00</string>
+    <string name="validate">validate activity</string>
+    <string name="id_hint">accept 8 digit or capital characters at most</string>
+    <string name="phone_hint">accept phone characters only</string>
+    <string name="license_hint">京A88888</string>
 </resources>

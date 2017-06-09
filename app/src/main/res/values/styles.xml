@@ -12,18 +12,18 @@
     <style name="FormLayoutLinear">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/form_item_height</item>
-        <item name="android:background">@color/fc_c11</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/form_margin_top</item>
         <item name="android:paddingLeft">@dimen/form_padding_left</item>
         <item name="android:paddingRight">@dimen/form_padding_right</item>
     </style>
 
     <!-- show label field and description per line in form -->
     <style name="FormLabelStyle">
-        <item name="android:layout_width">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_width">@dimen/form_label_width</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
         <item name="android:textSize">@dimen/text_size</item>
     </style>
 
